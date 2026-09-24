@@ -1,0 +1,24 @@
+# Local experiment outputs and large training state
+/runs/
+/build/
+/dist/
+*.egg-info/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+*.pkl
+*.pt
+!src/sac_avoidance/pretrained/*.pt
+*.npz

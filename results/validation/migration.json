@@ -1,0 +1,17 @@
+{
+  "static2d": {
+    "actor_tensors_identical": true,
+    "trace_steps": 40,
+    "observations_actions_rewards_identical": true
+  },
+  "dynamic2d": {
+    "actor_tensors_identical": true,
+    "trace_steps": 40,
+    "observations_actions_rewards_identical": true
+  },
+  "dynamic3d": {
+    "actor_tensors_identical": true,
+    "trace_steps": 40,
+    "observations_actions_rewards_identical": true
+  }
+}

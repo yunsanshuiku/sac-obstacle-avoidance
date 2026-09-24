@@ -1,0 +1,7 @@
+best_model=sac_outputs\models\best_sac_model.pt
+best_eval_score=800.0973352220168
+rollout_reached=True
+rollout_collided=False
+rollout_steps=140
+rollout_path_length=11.336907626898396
+rollout_dist_to_goal=0.2982055165929452

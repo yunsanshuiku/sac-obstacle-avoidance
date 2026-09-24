@@ -1,0 +1,9 @@
+{
+  "episodes": 3000,
+  "max_steps": 500,
+  "eval_every": 100,
+  "eval_episodes": 30,
+  "batch_size": 256,
+  "replay_size": 200000,
+  "warmup_steps": 5000
+}

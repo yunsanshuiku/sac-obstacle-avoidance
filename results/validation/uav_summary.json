@@ -1,0 +1,13 @@
+{
+  "checkpoint_sha256": "5a31c4aa03c286cb448259a6a14d2b9707b386a6f981eb40c9aa48ceb5a10c16",
+  "seed": 42,
+  "duration_seconds": 7.21,
+  "success": true,
+  "collision": false,
+  "final_distance": 0.3975224588659626,
+  "min_clearance": 1.2823813520717608,
+  "quaternion_norm": 1.0,
+  "max_quaternion_norm_error": 2.220446049250313e-16,
+  "throttle_min": 0.5195002507797754,
+  "throttle_max": 1.0
+}

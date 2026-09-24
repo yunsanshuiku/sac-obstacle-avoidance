@@ -1,0 +1,62 @@
+[
+  {
+    "file": "results/reference/static2d_training.csv",
+    "source": "adp22s/sac_project/sac_fast_full1400_run/sac_fast_full1400_training_log.csv",
+    "sha256": "1f18c9ae57043f7eb55bf1cd138e2d2ce7e7c14fbfffb7d5c7ba35302677d667"
+  },
+  {
+    "file": "results/reference/dynamic2d_training.json",
+    "source": "adp33s/sac_project/sac_outputs/sac_training_history.json",
+    "sha256": "82da47ce4add1eea89d5b6b1ceeaf79f4d1ed2a630998c9796f6aa5a1019f0d7"
+  },
+  {
+    "file": "results/reference/dynamic2d_rollout.txt",
+    "source": "adp33s/sac_project/sac_outputs/sac_eval_summary.txt",
+    "sha256": "5beae73ef86b70ba3e9f6154dc7b1cc840d14ae11cbacf0c02a28230eaa2dd51"
+  },
+  {
+    "file": "results/reference/dynamic3d_training.csv",
+    "source": "adp44s/projects/sac_3d/models/sac/training_history_3d_until_2800.csv",
+    "sha256": "d5b74d5f2bbd012bb14022bdab4e999f9e20d470400df89f844f0aa51cb0d09a"
+  },
+  {
+    "file": "results/reference/dynamic3d_evaluation.csv",
+    "source": "adp44s/projects/sac_3d/models/sac/evaluation_history_3d_until_2800.csv",
+    "sha256": "d87bfd1af0940a3349400d1b719b5fb35124739f06f0ef48943deea571053c98"
+  },
+  {
+    "file": "docs/assets/static2d_trajectory.png",
+    "source": "adp22s/sac_project/sac_fast_full1400_run/sac_fast_full1400_best_trajectory_dense.png",
+    "sha256": "e1822036817a008449309efbeae2914f1485ce0569cc8efb75c38b5b72ba6ce7"
+  },
+  {
+    "file": "docs/assets/static2d_evaluation.png",
+    "source": "adp22s/sac_project/sac_fast_full1400_run/sac_fast_full1400_eval_curves.png",
+    "sha256": "c90e7ced3e512cf99edd2c8bac50d0fb55cc13542d9264d30376346c38bbcf07"
+  },
+  {
+    "file": "docs/assets/dynamic2d_trajectory.gif",
+    "source": "adp33s/sac_project/sac_outputs/sac_trajectory.gif",
+    "sha256": "e793b27c2426e208a5ceba57824d2523839b7e37334bc454946c6d813bc889ec"
+  },
+  {
+    "file": "docs/assets/dynamic2d_training.png",
+    "source": "adp33s/sac_project/sac_outputs/sac_training_curves.png",
+    "sha256": "7543187f302cbb876c0d0cc514f80ec611298e11c84942359dd78174cb1b88d9"
+  },
+  {
+    "file": "docs/assets/dynamic3d_evaluation.png",
+    "source": "adp44s/projects/sac_3d/models/sac/sac_2800_evaluation_curves_3d.png",
+    "sha256": "15f257040fa85a11c9bfacf66646411e3132beb305ce59d8bbff13855f36f766"
+  },
+  {
+    "file": "docs/assets/uav_trajectory.png",
+    "source": "report_figures/sac_uav_trajectory_3d.png",
+    "sha256": "8209311aa544dc8308159b07f00734bd2c72a94cdb56beb78adf17f6822f6e5d"
+  },
+  {
+    "file": "docs/assets/uav_controls.png",
+    "source": "report_figures/sac_uav_states_controls.png",
+    "sha256": "bfee6266fbb8948f8a6ac35202cf6974117df584fdc7e3ca4b74cb4b04af6d40"
+  }
+]

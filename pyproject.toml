@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sac-obstacle-avoidance"
+version = "0.1.0"
+description = "PyTorch SAC obstacle avoidance in 2D, 3D and quadrotor simulation"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3", "torch>=2.6,<3", "matplotlib>=3.7,<4", "Pillow>=10,<13"]
+keywords = ["soft-actor-critic", "reinforcement-learning", "obstacle-avoidance", "quadrotor", "control"]
+classifiers = ["Programming Language :: Python :: 3", "Topic :: Scientific/Engineering :: Artificial Intelligence"]
+
+[project.scripts]
+sac-avoidance = "sac_avoidance.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+sac_avoidance = ["pretrained/*.pt", "pretrained/*.json"]

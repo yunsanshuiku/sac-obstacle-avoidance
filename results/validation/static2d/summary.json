@@ -1,0 +1,20 @@
+{
+  "scenario": "static2d",
+  "episodes": 20,
+  "seed_start": 10000,
+  "max_steps": 420,
+  "checkpoint_sha256": "cdf701471b37f3bb6705de8f7537afe8bd5c4af2b26dbbc1dc03b722eed5a556",
+  "python": "3.10.20",
+  "torch": "2.12.0+cpu",
+  "numpy": "2.2.6",
+  "device": "cpu",
+  "success_rate": 1.0,
+  "collision_rate": 0.0,
+  "outside_rate": 0.0,
+  "timeout_rate": 0.0,
+  "mean_steps": 138.4,
+  "mean_reward": 757.2527749126778,
+  "mean_final_distance": 0.2418937437236309,
+  "mean_min_clearance": 0.5118326485157013,
+  "mean_path_length": 11.923794269561768
+}

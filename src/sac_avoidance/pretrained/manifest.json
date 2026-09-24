@@ -1,0 +1,69 @@
+{
+  "static2d": {
+    "file": "static2d.pt",
+    "source": "adp22s/sac_project/sac_fast_full1400_run/sac_fast_full1400_best_full.pt",
+    "source_sha256": "8c9bb4d6e843dc8285a4cc7dcef54155f530b6e9fea8e38d288c6797e0487eac",
+    "sha256": "cdf701471b37f3bb6705de8f7537afe8bd5c4af2b26dbbc1dc03b722eed5a556",
+    "bytes": 548949,
+    "training_episode_label": 1140,
+    "source_config": {},
+    "note": "Actor tensors only; no optimizer, replay buffer or random generator state."
+  },
+  "dynamic2d": {
+    "file": "dynamic2d.pt",
+    "source": "adp33s/sac_project/sac_outputs/models/best_sac_model.pt",
+    "source_sha256": "a802cd189131ad34893df9d44ad3a4357ea8bd913cdcd5e732496948be0adadc",
+    "sha256": "b7aaa78fcd3762f9281aa4227d7a888446be9eb4a9617d0a1f447957f7955973",
+    "bytes": 290599,
+    "training_episode_label": 3200,
+    "source_config": {
+      "episodes": 1000,
+      "steps_per_episode": 500,
+      "eval_every": 100,
+      "eval_scenarios": 30,
+      "save_every": 100,
+      "plot_every": 100,
+      "batch_size": 256,
+      "replay_size": 200000,
+      "warmup_steps": 5000,
+      "updates_per_step": 1,
+      "gamma": 0.99,
+      "tau": 0.005,
+      "actor_lr": 0.0003,
+      "critic_lr": 0.0003,
+      "alpha_lr": 0.0003,
+      "hidden_dim": 256,
+      "seed": 42
+    },
+    "note": "Actor tensors only; no optimizer, replay buffer or random generator state."
+  },
+  "dynamic3d": {
+    "file": "dynamic3d.pt",
+    "source": "adp44s/projects/sac_3d/models/sac/best_sac_model_3d.pt",
+    "source_sha256": "45c85d63b785206b0d6228b7e11cb037f3040d0065e2c607a71c6fd8ebc9fac4",
+    "sha256": "5a31c4aa03c286cb448259a6a14d2b9707b386a6f981eb40c9aa48ceb5a10c16",
+    "bytes": 315945,
+    "training_episode_label": 2400,
+    "source_config": {
+      "episodes": 5000,
+      "steps_per_episode": 600,
+      "eval_every": 50,
+      "eval_episodes": 10,
+      "save_dir": "./models/sac",
+      "randomize_static": true,
+      "hidden_dim": 256,
+      "replay_size": 200000,
+      "batch_size": 256,
+      "gamma": 0.99,
+      "tau": 0.005,
+      "policy_lr": 0.0003,
+      "q_lr": 0.0003,
+      "alpha_lr": 0.0003,
+      "train_every": 1,
+      "updates_per_step": 1,
+      "start_steps": 2000,
+      "seed": 42
+    },
+    "note": "Actor tensors only; no optimizer, replay buffer or random generator state."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "scenario": "dynamic3d",
+  "episodes": 10,
+  "seed_start": 10000,
+  "max_steps": 600,
+  "checkpoint_sha256": "5a31c4aa03c286cb448259a6a14d2b9707b386a6f981eb40c9aa48ceb5a10c16",
+  "python": "3.10.20",
+  "torch": "2.12.0+cpu",
+  "numpy": "2.2.6",
+  "device": "cpu",
+  "success_rate": 1.0,
+  "collision_rate": 0.0,
+  "outside_rate": 0.0,
+  "timeout_rate": 0.0,
+  "mean_steps": 120.8,
+  "mean_reward": 589.0712595611533,
+  "mean_final_distance": 0.2698347707616103,
+  "mean_min_clearance": 1.2085517811122184,
+  "mean_path_length": 12.142860070810116
+}
